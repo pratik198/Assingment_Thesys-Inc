@@ -1,0 +1,44 @@
+.right_component {
+  width: 50px;
+  background-color: #fff;
+  padding: 10px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 106px;
+}
+
+.right_component_icon,
+.right_component_arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.right_component_icon img,
+.right_component_arrow img {
+  width: 100%;
+  height: 100%;
+}
+
+.right_profiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.right_profiles img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.right_profiles img.active {
+  border: 2px solid #007bff;
+}
